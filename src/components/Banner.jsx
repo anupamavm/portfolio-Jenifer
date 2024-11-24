@@ -4,17 +4,12 @@ import Container from "./Container";
 import { ArrowUpRight } from "lucide-react";
 
 const Banner = () => {
-	const heroImage =
-		"https://blogger.googleusercontent.com/img/a/AVvXsEjUpARFN21vBikljmtWkAZj-4F9WKgegUIwus55lRsxcYGPgiFBosv-8yNOJ-y33eTBTR9xte6684MIwVKTNFG9do4DQYNM3lV8R1aCVc9uB2abhlk-aeu0cx60pudQOS2Yxzb--zFFr84PBNkaUvLVGGDi-tOluKYQi0wYfvP9jPtHwut4FuOp8V2NugQ";
 	return (
 		<section
 			id="home"
-			className="w-full min-h-screen bg-banner-image bg-center bg-cover bg-no-repeat relative"
+			className="w-full min-h-screen bg-testimonial-image bg-center bg-cover bg-no-repeat relative"
 			style={{
-				backgroundImage: `url(${heroImage})`,
-				backgroundPosition: "center",
-				backgroundSize: "cover",
-				backgroundRepeat: "no-repeat",
+				backgroundImage: `url('https://blogger.googleusercontent.com/img/a/AVvXsEjUpARFN21vBikljmtWkAZj-4F9WKgegUIwus55lRsxcYGPgiFBosv-8yNOJ-y33eTBTR9xte6684MIwVKTNFG9do4DQYNM3lV8R1aCVc9uB2abhlk-aeu0cx60pudQOS2Yxzb--zFFr84PBNkaUvLVGGDi-tOluKYQi0wYfvP9jPtHwut4FuOp8V2NugQ')`,
 			}}>
 			<Container className="text-white py-20 min-h-screen flex items-center">
 				<div className="max-w-2xl flex flex-col gap-5">
